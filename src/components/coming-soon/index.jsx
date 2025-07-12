@@ -16,8 +16,7 @@ function CountDownRenderer({ days, hours, minutes, seconds }) {
 						</span>
 					</h2>
 					<p>
-						Get notified when we launch something new for you! Enter your email address here and stay tuned
-						with us.
+					We’re working on something amazing. Meanwhile, feel free to contact us directly!
 					</p>
 				</div>
 				<div className="aximo-countdown-wrap">
@@ -47,6 +46,18 @@ function CountDownRenderer({ days, hours, minutes, seconds }) {
 					</div>
 				</div>
 				<NotifyForm />
+				  {/* Email input (optional) */}
+				  {/* <div className="email-input">
+        <input type="email" placeholder="Enter your email" />
+        <button>Get Notified</button>
+      </div> */}
+
+      {/* Contact button */}
+      
+
+      {/* <p style={{ marginTop: '10px', fontSize: '12px' }}>
+        We do not share your information with any third party & no spam*
+      </p> */}
 			</div>
 		</div>
 	);
