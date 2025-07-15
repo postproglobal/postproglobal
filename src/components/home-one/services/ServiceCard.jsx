@@ -10,9 +10,9 @@ function ServiceCard({ service: { title, description, icon, img } }) {
 			<div className="aximo-iconbox-data">
 				<h3>{title}</h3>
 				<p>{description}</p>
-				<Link to="/single-service" className="aximo-icon">
+				<span  className="aximo-icon">
 					<img src={ArrowRightImg} alt="arrow right" />
-				</Link>
+				</span>
 			</div>
 		</div>
 	);

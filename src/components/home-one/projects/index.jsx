@@ -5,11 +5,13 @@ import Star2Img from "../../../assets/images/v1/star2.png";
 // import Project3Img from "../../../assets/images/v1/project3.png";
 // import Project4Img from "../../../assets/images/v1/project4.png";
 
-import Project1Img from "../../../assets/images/projects/TVC.webp"
+import Project1Img from "../../../assets/images/projects/TVC V2.jpg"
 import Project2Img from "../../../assets/images/projects/BRAND FILMS.webp"
 import Project3Img from "../../../assets/images/projects/EDITING AND DI.webp"
 import Project4Img from "../../../assets/images/projects/MOTION GRAPHIC .webp"
 import Project5Img from "../../../assets/images/projects/GRAPHIC DESIGN.webp"
+import Project6Img from "../../../assets/images/projects/DIGITAL MARKETING V2.webp"
+import Project7Img from "../../../assets/images/projects/WEB DESIGN.webp"
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Mousewheel } from "swiper/modules";
@@ -23,7 +25,7 @@ const projectsData = [
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Podcasts",
+		title: "Brand Film",
 		description: "Authentic voices, compelling narratives, From concept to post production, Our podcast work showcases powerful conversations and immersive audio design.",
 		img: Project2Img,
 	},
@@ -44,6 +46,18 @@ const projectsData = [
 		title: "Graphic Design",
 		description: "Visual communication with impact. Our graphic design portfolio blends strategy and creativity, delivering distinctive visuals across print and digital formats.",
 		img: Project5Img,
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Web Design",
+		description: "Your website is your digital first impression. Post Pro designs and builds beautiful, functional sites that connect with your audience and make your business shine.",
+		img: Project7Img,
+	},
+	{
+		id: crypto.randomUUID(),
+		title: "Digital Marketing",
+		description: "At Post Pro, we help your brand shine online. We connect your unique story with the right audience, turning clicks into conversations. Let's grow together!.",
+		img: Project6Img,
 	},
 	// {
 	// 	id: crypto.randomUUID(),

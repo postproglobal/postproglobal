@@ -5,6 +5,7 @@ import Projects from "../../components/home-one/projects";
 import Services from "../../components/home-one/services";
 import Teams from "../../components/home-one/teams";
 import Testimonial from "../../components/home-one/testimonial";
+import BrandLogo from "../../components/home-four/brand-logo";
 import WhyChooseUs from "../../components/home-one/why-choose-us";
 
 // Teams images
@@ -56,27 +57,51 @@ const servicesData = [
 const teamsData = [
 	{
 		id: crypto.randomUUID(),
-		name: "Andrew Mark",
+		name: "BIBIN",
 		designation: "Creative Director",
 		img: Team1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Jack Taylor",
-		designation: "Senior Designer",
+		name: "VIBIN BABU",
+		designation: "Cinematographer",
 		img: Team2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Martine Joy",
-		designation: "Project Manager",
+		name: "Hardy",
+		designation: "Video Editor",
 		img: Team3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		name: "Adam Straw",
+		name: "Akash",
+		designation: "VFX Artist",
+		img: Team3Img,
+	},	
+	{
+		id: crypto.randomUUID(),
+		name: "Gaya Raghu",
+		designation: "Graphic Designer",
+		img: Team4Img,
+	},
+	{
+		id: crypto.randomUUID(),
+		name: "Akash",
 		designation: "Web Developer",
 		img: Team4Img,
+	},
+	{
+		id: crypto.randomUUID(),
+		name: "Shavin",
+		designation: "DI Colourist",
+		img: Team3Img,
+	},
+	{
+		id: crypto.randomUUID(),
+		name: "Aswin Das",
+		designation: "Project Manager",
+		img: Team3Img,
 	},
 ];
 
@@ -88,8 +113,9 @@ function HomeOne() {
 			<About />
 			<Projects />
 			<WhyChooseUs />
-			<Testimonial />
-			<AutoSlider />
+			{/* <Testimonial /> */}
+			{/* <AutoSlider /> */}
+			<BrandLogo />
 			<Teams teams={teamsData} />
 		</>
 	);

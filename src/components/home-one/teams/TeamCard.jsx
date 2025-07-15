@@ -5,7 +5,7 @@ function TeamCard({ team: { name, designation, img } }) {
 			<div className="aximo-team-thumb">
 				<img src={img} alt={name} />
 				<div className="aximo-social-icon team-social">
-					<ul>
+					{/* <ul>
 						<li>
 							<a href="https://twitter.com" target="_blank">
 								<i className="icon-twitter"></i>
@@ -26,7 +26,7 @@ function TeamCard({ team: { name, designation, img } }) {
 								<i className="icon-linkedin"></i>
 							</a>
 						</li>
-					</ul>
+					</ul> */}
 				</div>
 			</div>
 			<div className="aximo-team-data">

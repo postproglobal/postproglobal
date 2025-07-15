@@ -1,0 +1,78 @@
+/* .brandlogo-section {
+    padding: 40px 190px;
+    background-color: black;
+  } */
+  
+  .brandlogo-title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .brandlogo-title h3 {
+    font-size: 2.2rem;
+    color: #555;
+  }
+  
+  .brandlogo-grid {
+    display: grid;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    
+    /* Default: 2 columns on mobile */
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Medium screens: 3 columns */
+  @media (min-width: 576px) {
+    .brandlogo-grid {
+      grid-template-columns: repeat(3, 1fr);
+      
+    }
+    .brandlogo-section {
+      padding: 40px 20px !important;
+      /* background-color: black; */
+    }
+  }
+  
+  /* Large screens: 4 columns */
+  @media (min-width: 768px) {
+    .brandlogo-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .brandlogo-section {
+      padding: 40px 90px;
+      /* background-color: black; */
+    }
+  }
+  
+  /* Extra large screens: 5 columns */
+  @media (min-width: 992px) {
+    .brandlogo-grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+    .brandlogo-section {
+      padding: 40px 190px;
+      /* background-color: black; */
+    }
+  }
+  
+  .brandlogo-item img {
+    width: 100%;
+    max-width: 120px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.4s ease;
+    margin-bottom: 25px;
+  }
+  
+  .brandlogo-item img:hover {
+    filter: grayscale(0%);
+  }
+  
+  .brandlogo-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  

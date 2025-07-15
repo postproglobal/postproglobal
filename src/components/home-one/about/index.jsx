@@ -12,18 +12,17 @@ function About() {
 						<div className="col-lg-7">
 							<h2>
 								<span className="aximo-title-animation">
-									We make your
+								We make your 
 									<span className="aximo-title-icon">
 										<img src={Star2Img} alt="Star2Img" />
 									</span>
 								</span>{" "}
-								business stand out
+								brand memorable.
 							</h2>
 						</div>
 						<div className="col-lg-4 offset-lg-1 d-flex align-items-center">
 							<p>
-								We work closely with our clients to know their objectives, target audience, unique
-								needs, and practical design solutions.
+							Bold brand stories, scroll stopping reels, we help your business shine through visuals that people remember and love.
 							</p>
 						</div>
 					</div>

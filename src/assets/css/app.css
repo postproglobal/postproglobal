@@ -6531,10 +6531,10 @@ img.aximo-video-circle {
 	}
 }
 .aximo-auto-slider-item img {
-	-webkit-animation: rotate-animation 7s infinite linear;
+	/* -webkit-animation: rotate-animation 7s infinite linear;
 	-moz-animation: rotate-animation 7s infinite linear;
 	-o-animation: rotate-animation 7s infinite linear;
-	animation: rotate-animation 7s infinite linear;
+	animation: rotate-animation 7s infinite linear; */
 }
 .aximo-auto-slider .swiper-wrapper {
 	-webkit-transition-timing-function: linear !important;
@@ -6680,7 +6680,7 @@ img.aximo-video-circle {
 .aximo-brandlogo-section2 {
 	padding: 100px 0;
 	border-radius: 20px;
-	background-color: #191931;
+	background-color: #000;
 }
 @media (max-width: 991px) {
 	.aximo-brandlogo-section2 {
@@ -6710,9 +6710,11 @@ img.aximo-video-circle {
 	margin: 0 40px;
 }
 
+
 .aximo-brandlogo-section3 {
 	padding: 100px 0;
-	background-color: #4659ff;
+	/* background-color: #c9f41e; */
+	background-color: #000000;
 }
 @media (max-width: 991px) {
 	.aximo-brandlogo-section3 {
@@ -6852,6 +6854,13 @@ img.aximo-video-circle {
 		font-size: 18px;
 	}
 }
+@media (min-width: 1200px) {
+	.col-xl-1-5 {
+	  flex: 0 0 20%;
+	  max-width: 20%;
+	}
+  }
+  
 .aximo-pricing-body ul li:last-child {
 	margin-bottom: 0;
 }
@@ -8336,7 +8345,7 @@ a.aximo-connect-login img {
 .aximo-section-title.center {
 	margin: 0 auto;
 	text-align: center;
-	max-width: 800px;
+	max-width: 875px;
 }
 .aximo-section-title.center.full-width {
 	max-width: 100%;

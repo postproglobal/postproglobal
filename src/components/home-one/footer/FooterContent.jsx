@@ -14,15 +14,14 @@ function FooterContent() {
 				project together
 			</h2>
 			<p>
-				We work closely with our clients to understand their objectives, target audience, and unique needs. We
-				use our creative skills to translate these requirements and practical design solutions.
+				We truly listen to you to grasp your vision and who you want to reach. Then, we roll up our sleeves and use all our creative talents from making stunning videos to crafting compelling designs and building powerful online strategies to deliver solutions that genuinely connect with your audience and make your brand shine.
 			</p>
 			<div className="aximo-info-wrap">
 				<div className="aximo-info">
 					<ul>
 						<li>Give us a call:</li>
 						<li>
-							<a href="tel:(123) 456-7890">(123) 456-7890</a>
+							<a href="tel:(123) 456-7890">(+91) 790 737 7514</a>
 						</li>
 					</ul>
 				</div>
@@ -30,7 +29,7 @@ function FooterContent() {
 					<ul>
 						<li>Send us an email:</li>
 						<li>
-							<a href="mailto:info@mthemeus.com">info@mthemeus.com</a>
+							<a href="mailto:info@mthemeus.com">Info@postproglobal.com</a>
 						</li>
 					</ul>
 				</div>

@@ -30,7 +30,7 @@ function Header() {
 								</Dropdown>
 							</NavItem> */}
 							<NavItem url="about-us">About Us</NavItem>
-							<NavItem dropdown title="Pages">
+							{/* <NavItem dropdown title="Pages">
 								<Dropdown>
 									<DropdownItem url="about-us">About Us</DropdownItem>
 									<DropdownItem url="pricing">Pricing</DropdownItem>
@@ -83,7 +83,7 @@ function Header() {
 									<DropdownItem url="blog-grid">Blog Grid</DropdownItem>
 									<DropdownItem url="single-blog">Blog Details</DropdownItem>
 								</Dropdown>
-							</NavItem>
+							</NavItem> */}
 							<NavItem url="contact-us">Contact Us</NavItem>
 						</DesktopNav>
 					</div>

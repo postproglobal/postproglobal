@@ -18,38 +18,38 @@ function ContactInfo() {
 					</h2>
 				</div>
 				<FadeInStaggerTwo className="row">
-					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6">
+					<FadeInStaggerTwoChildren className="col-xl-6 col-md-6">
 						<div className="aximo-contact-info-box">
 							<div className="aximo-contact-info-icon">
 								<img src={Call2Img} alt="Call Img" />
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Call us</span>
-								<p>+088-234-6532-789</p>
-								<p>+088-456-3217-005</p>
+								<p>+91-790-737-7514</p>  
+								{/* <p>+088-456-3217-005</p> */}
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
-					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6">
+					<FadeInStaggerTwoChildren className="col-xl-6 col-md-6">
 						<div className="aximo-contact-info-box">
 							<div className="aximo-contact-info-icon">
 								<img src={EmailImg} alt="Email" />
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Email us</span>
-								<p>example@gmail.com</p>
-								<p>example@gmail.com</p>
+								<p>Info@postproglobal.com</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>
-					<FadeInStaggerTwoChildren className="col-xl-4 col-md-6">
+					<FadeInStaggerTwoChildren className="col-xl-12 col-md-6">
 						<div className="aximo-contact-info-box">
 							<div className="aximo-contact-info-icon">
 								<img src={MapImg} alt="Map" />
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Office address</span>
-								<p>4132 Thornridge City, New York.</p>
+								{/* <p>Venture Arcade, Kozhikode, Kerala 673016</p> */}
+								<p>Level 2, Venture Arcade, Mavoor Rd, above Croma, Thondayad, Kozhikode, Kerala 673016</p>
 							</div>
 						</div>
 					</FadeInStaggerTwoChildren>

@@ -6,8 +6,8 @@ import TwoColumnFaq from "../components/contact/TwoColumnFaq";
 function ContactUs() {
 	const location = {
 		center: {
-			lat: 10.99835602,
-			lng: 77.01502627,
+			lat: 11.26247274445754,
+			lng: 75.80978271349106,
 		},
 		zoom: 11,
 	};
@@ -16,7 +16,7 @@ function ContactUs() {
 			<BreadCrumb title="Contact Us" />
 			<ContactForm />
 			<ContactInfo />
-			<GoogleMap location={location} />
+			{/* <GoogleMap location={location} /> */}
 			<TwoColumnFaq />
 		</>
 	);
