@@ -1,8 +1,15 @@
 import Star2Img from "../../../assets/images/v1/star2.png";
-import Project1Img from "../../../assets/images/v1/project1.png";
-import Project2Img from "../../../assets/images/v1/project2.png";
-import Project3Img from "../../../assets/images/v1/project3.png";
-import Project4Img from "../../../assets/images/v1/project4.png";
+
+// import Project1Img from "../../../assets/images/v1/project1.png";
+// import Project2Img from "../../../assets/images/v1/project2.png";
+// import Project3Img from "../../../assets/images/v1/project3.png";
+// import Project4Img from "../../../assets/images/v1/project4.png";
+
+import Project1Img from "../../../assets/images/projects/TVC.webp"
+import Project2Img from "../../../assets/images/projects/BRAND FILMS.webp"
+import Project3Img from "../../../assets/images/projects/EDITING AND DI.webp"
+import Project4Img from "../../../assets/images/projects/MOTION GRAPHIC .webp"
+import Project5Img from "../../../assets/images/projects/GRAPHIC DESIGN.webp"
 import ProjectCard from "./ProjectCard";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Mousewheel } from "swiper/modules";
@@ -10,40 +17,40 @@ import { Pagination, Mousewheel } from "swiper/modules";
 const projectsData = [
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
+		title: "TVC",
+		description: "Explore commercials crafted to capture attention, drive engagement, and leave a lasting brand impression.",
 		img: Project1Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a company's logo and developing a cohesive visual identity.",
+		title: "Podcasts",
+		description: "Authentic voices, compelling narratives, From concept to post production, Our podcast work showcases powerful conversations and immersive audio design.",
 		img: Project2Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "App UI/UX Design",
-		description: "Designing the UI/UXe for mobile apps and web applications to ensure usability & engagement.",
+		title: "Visual Editing & DI",
+		description: "Polished to perfection. Dive into our post production world where raw footage transforms into vivid stories through precise editing and color grading.",
 		img: Project3Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Packaging Design",
-		description: "Creating packaging solutions for products that not only protect attract customers on store.",
+		title: "Motion Graphics",
+		description: "Dynamic design in motion. See how we bring ideas to life with animated visuals that educate, excite, and enhance brand storytelling.",
 		img: Project4Img,
 	},
 	{
 		id: crypto.randomUUID(),
-		title: "Product Design",
-		description: "Developing the look and feel of physical products, aesthetics, and functionality.",
-		img: Project1Img,
+		title: "Graphic Design",
+		description: "Visual communication with impact. Our graphic design portfolio blends strategy and creativity, delivering distinctive visuals across print and digital formats.",
+		img: Project5Img,
 	},
-	{
-		id: crypto.randomUUID(),
-		title: "Logo and Branding",
-		description: "Creating or refreshing a company's logo and developing a cohesive visual identity.",
-		img: Project2Img,
-	},
+	// {
+	// 	id: crypto.randomUUID(),
+	// 	title: "Logo and Branding",
+	// 	description: "Creating or refreshing a company's logo and developing a cohesive visual identity.",
+	// 	img: Project2Img,
+	// },
 ];
 
 const swiperSettings = {

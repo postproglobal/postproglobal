@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function ProjectCard({ project: { title, description, img } }) {
 	return (
 		<div className="swiper-slide">
-			<div className="aximo-project-thumb">
+			<div className="aximo-project-thumb" style={{width: '530px', height : '300px'}}>
 				<img src={img} alt={title} />
 				<div className="aximo-project-wrap">
 					<div className="aximo-project-data">

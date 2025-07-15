@@ -4,20 +4,23 @@ function Content() {
 		<div className="aximo-default-content">
 			<h2>
 				<span className="aximo-title-animation">
-					Our high-quality
+					The Art of Process
 					<span className="aximo-title-icon">
 						<img src={Star2Img} alt="Star2Img" />
 					</span>
 				</span>{" "}
-				working processes
+				
 			</h2>
+			<h3 style={{marginBottom: '15px'}}>
+			A great video doesn't happen by chance.
+			</h3>
 			<p>
-				We focus at every stage on effective communication and collaboration between the client and ensuring
-				that the final design meets the client s objectives and expectations.
+				Our production process is a blend of creative vision and strategic precision, 
+				refined over 8+ years and 250+ projects.
 			</p>
 			<p>
-				It is important to note that these are simplified steps, and the actual work process may vary depending
-				on the complexity of the project.
+				From concept development and scripting to storyboarding, filming, and post production, every stage is driven by collaboration, 
+				technical excellence, and a deep understanding of your brand.
 			</p>
 		</div>
 	);
