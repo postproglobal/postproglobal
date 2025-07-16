@@ -209,6 +209,16 @@ import Client15Img from "../../../assets/images/client/15.png";
 import Client16Img from "../../../assets/images/client/16.png";
 import Client17Img from "../../../assets/images/client/17.png";
 import Client18Img from "../../../assets/images/client/18.png";
+import Client20Img from "../../../assets/images/client/20.png";
+import Client21Img from "../../../assets/images/client/21.png";
+import Client22Img from "../../../assets/images/client/22.png";
+import Client24Img from "../../../assets/images/client/24.png";
+import Client25Img from "../../../assets/images/client/25.png";
+import Client26Img from "../../../assets/images/client/26.png";
+import Client27Img from "../../../assets/images/client/27.png";
+import Client23Img from "../../../assets/images/client/wb.png";
+import Client19Img from "../../../assets/images/client/29.png";
+
 
 const sliderData = [
   { id: crypto.randomUUID(), img: Client16Img },
@@ -229,8 +239,17 @@ const sliderData = [
   { id: crypto.randomUUID(), img: Client8Img },
   { id: crypto.randomUUID(), img: Client15Img },
   { id: crypto.randomUUID(), img: Client9Img },
-
+  { id: crypto.randomUUID(), img: Client27Img },
+  { id: crypto.randomUUID(), img: Client24Img },
+  { id: crypto.randomUUID(), img: Client21Img },
+  { id: crypto.randomUUID(), img: Client20Img },
+  { id: crypto.randomUUID(), img: Client23Img },
+  { id: crypto.randomUUID(), img: Client25Img },
+  { id: crypto.randomUUID(), img: Client19Img },
+  { id: crypto.randomUUID(), img: Client22Img },
+  { id: crypto.randomUUID(), img: Client26Img },
 ]
+
 
 function BrandLogoGrid() {
   return (
@@ -239,16 +258,16 @@ function BrandLogoGrid() {
         <h3>Our Clients</h3>
       </div> */}
       <div className="aximo-section-title center">
-                <h2>
-                  Our Clients
-                  <span className="aximo-title-animation">
-                    {/* creative people */}
-                    <span className="aximo-title-icon">
-                      <img src={Star2Img} alt="Star2Img" />
-                    </span>
-                  </span>
-                </h2>
-              </div>
+        <h2>
+          Our Clients
+          <span className="aximo-title-animation">
+            {/* creative people */}
+            <span className="aximo-title-icon">
+              <img src={Star2Img} alt="Star2Img" />
+            </span>
+          </span>
+        </h2>
+      </div>
       <div className="brandlogo-grid">
         {sliderData.map((item) => (
           <div className="brandlogo-item" key={item.id}>

@@ -43,82 +43,80 @@ export const router = createBrowserRouter([
 		children: [
 			{
 				path: "/",
-				// element: <LayoutOne />,
-				element: <CommingSoon />
-				// children: [
-				// 	{
-				// 		path: "/",
-				// 		element: <HomeOne />,
-						
-						
-				// 	},
-				// 	{
-				// 		path: "/about-us",
-				// 		element: <AboutUs />,
-				// 	},
-				// 	{
-				// 		path: "/contact-us",
-				// 		element: <ContactUs />,
-				// 	},
-				// 	{
-				// 		path: "/faq",
-				// 		element: <Faq />,
-				// 	},
+				element: <LayoutOne />,
+				// element: <CommingSoon />
+				children: [
+					{
+						path: "/",
+						element: <HomeOne />,						
+					},
+					{
+						path: "/about-us",
+						element: <AboutUs />,
+					},
+					{
+						path: "/contact-us",
+						element: <ContactUs />,
+					},
+					{
+						path: "/faq",
+						element: <Faq />,
+					},
 
-				// 	{
-				// 		path: "/testimonial",
-				// 		element: <TestimonialPage />,
-				// 	},
+					{
+						path: "/testimonial",
+						element: <TestimonialPage />,
+					},
 
-				// 	{
-				// 		path: "/pricing",
-				// 		element: <Pricing />,
-				// 	},
-				// 	{
-				// 		path: "/blog",
-				// 		element: <BlogPage />,
-				// 	},
-				// 	{
-				// 		path: "/single-blog",
-				// 		element: <SingleBlogPage />,
-				// 	},
-				// 	{
-				// 		path: "/blog-grid",
-				// 		element: <BlogGridPage />,
-				// 	},
-				// 	{
-				// 		path: "/service",
-				// 		element: <Service />,
-				// 	},
-				// 	{
-				// 		path: "/single-service",
-				// 		element: <SingleService />,
-				// 	},
-				// 	{
-				// 		path: "/team",
-				// 		element: <Team />,
-				// 	},
-				// 	{
-				// 		path: "/single-team",
-				// 		element: <SingleTeam />,
-				// 	},
-				// 	{
-				// 		path: "/portfolio-one",
-				// 		element: <PortfolioOneColumn />,
-				// 	},
-				// 	{
-				// 		path: "/portfolio-two",
-				// 		element: <PortfolioTwoColumn />,
-				// 	},
-				// 	{
-				// 		path: "/single-portfolio",
-				// 		element: <SinglePortfolio />,
-				// 	},
-				// 	{
-				// 		path: "*",
-				// 		element: <ErrorPage />,
-				// 	},
-				// ],
+					{
+						path: "/pricing",
+						element: <Pricing />,
+					},
+					{
+						path: "/blog",
+						element: <BlogPage />,
+					},
+					{
+						path: "/single-blog",
+						element: <SingleBlogPage />,
+					},
+					{
+						path: "/blog-grid",
+						element: <BlogGridPage />,
+					},
+					{
+						path: "/service",
+						element: <Service />,
+					},
+					{
+						path: "/single-service",
+						element: <SingleService />,
+					},
+					{
+						path: "/team",
+						element: <Team />,
+					},
+					{
+						path: "/single-team",
+						element: <SingleTeam />,
+					},
+					{
+						path: "/portfolio-one",
+						element: <PortfolioOneColumn />,
+					},
+					{
+						path: "/portfolio-two",
+						element: <PortfolioTwoColumn />,
+					},
+					{
+						path: "/single-portfolio",
+						element: <SinglePortfolio />,
+					},
+					{
+						path: "*",
+						element: <ErrorPage />,
+					},
+				],
 			},
 			{
 				path: "/",

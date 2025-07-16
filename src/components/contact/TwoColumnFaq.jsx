@@ -4,36 +4,47 @@ const faqData = {
 	faq1: [
 		{
 			id: crypto.randomUUID(),
-			title: "What services does agency offer?",
-			text: "Clients often seek to understand the range of design services an agency provides, such as graphic design, web design, branding.",
+			title: "What services do you offer?",
+			text: "We offer a complete range of creative services from stunning brand films, motion graphics, and visual editing & DI to graphic design and social media content. We make your brand shine at every touchpoint..",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "What is your design process like?",
-			text: "Explaining the design agency's process from initial concept to final delivery helps clients understand what to expect.",
+			title: "How do you ensure the final output matches my vision?",
+			text: "We involve you throughout each stage, gather feedback actively, and make refinements to ensure the final result aligns with your brand’s personality and goals.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How much does design work cost?",
-			text: "The cost of our design services varies depending on the scope of the project. We provide customized quotes after discussing requirements.",
+			title: "Can we see your previous work?",
+			text: "Absolutely. You can explore our portfolio on the website to see the diverse range of projects we’ve delivered successfully.",
+		},
+		{
+			id: crypto.randomUUID(),
+			title: "How much do your services cost?",
+			text: "Our pricing is customized based on your specific needs and project scope. After understanding your goals, we provide transparent, tailored quotes.",
 		},
 	],
 	faq2: [
 		{
 			id: crypto.randomUUID(),
-			title: "What's your design process like?",
-			text: "Our design process typically involves discovery, concept development, design, revisions based on feedback, and finalization.",
+			title: "What is your process like?",
+			text: "Our process is collaborative and detail-driven: from pre-production and planning, to shooting and editing, all the way to final delivery. We focus on strategy, storytelling, and flawless execution.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How do you handle user feedback?",
-			text: "We value client feedback and work closely with you to make sure user happy with the final design. We offer a specific number of revisions.",
+			title: "What makes Postpro different from other agencies?",
+			text: "We blend artistic passion with strategic thinking, delivering visuals that evoke emotion and build brand connection. Our dedicated team brings creative ideas to life with a distinct style.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "Can we see samples of your work?",
-			text: "Yes, we're proud to showcase a portfolio of our previous projects. You can find examples of our work on our website or view our portfolio.",
+			title: "Can you work with tight deadlines?",
+			text: "Yes! We thrive under deadlines and can adapt our process to meet your project timeline without compromising quality.",
 		},
+		{
+			id: crypto.randomUUID(),
+			title: "What industries do you work with?",
+			text: "We work with brands across various industries from entertainment and advertising to startups and corporate organizations, adapting our approach to each unique story.",
+		},
+
 	],
 };
 function TwoColumnFaq() {

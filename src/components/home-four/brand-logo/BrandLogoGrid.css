@@ -21,13 +21,16 @@
     
     /* Default: 2 columns on mobile */
     grid-template-columns: repeat(3, 1fr);
+    padding: 20px 40px !important;
+
   }
   
   /* Medium screens: 3 columns */
   @media (min-width: 576px) {
     .brandlogo-grid {
       grid-template-columns: repeat(3, 1fr);
-      
+      padding: 40px 20px !important;
+
     }
     .brandlogo-section {
       padding: 40px 20px !important;

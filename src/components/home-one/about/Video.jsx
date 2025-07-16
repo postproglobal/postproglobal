@@ -1,7 +1,8 @@
 import { useState } from "react";
 import ModalVideo from "react-modal-video";
 import PlayBtnImg from "../../../assets/images/v1/play-btn.svg";
-import VideoBg from "../../../assets/images/v1/video-bg.png";
+
+import VideoBg from "../../../assets/images/about/youtube_thumb.webp";
 import FadeInUp from "../../animation/FadeInUp";
 
 function Video() {
