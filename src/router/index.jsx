@@ -5,9 +5,6 @@ import ErrorPage from "../error-page";
 import AboutUs from "../page/AboutUs";
 import ContactUs from "../page/ContactUs";
 import Pricing from "../page/Pricing";
-import BlogGridPage from "../page/blog/BlogGridPage.jsx";
-import BlogPage from "../page/blog/BlogPage.jsx";
-import SingleBlogPage from "../page/blog/SingleBlog.jsx";
 import HomeOne from "../page/home/HomeOne.jsx";
 import PortfolioOneColumn from "../page/portfolio/PortfolioOneColoum";
 import PortfolioTwoColumn from "../page/portfolio/PortfolioTwoColumn";
@@ -42,60 +39,48 @@ export const router = createBrowserRouter([
 						path: "/contact-us",
 						element: <ContactUs />,
 					},
-					{
-						path: "/faq",
-						element: <Faq />,
-					},
+					// {
+					// 	path: "/faq",
+					// 	element: <Faq />,
+					// },
 
-					{
-						path: "/testimonial",
-						element: <TestimonialPage />,
-					},
+					// {
+					// 	path: "/testimonial",
+					// 	element: <TestimonialPage />,
+					// },
 
-					{
-						path: "/pricing",
-						element: <Pricing />,
-					},
-					{
-						path: "/blog",
-						element: <BlogPage />,
-					},
-					{
-						path: "/single-blog",
-						element: <SingleBlogPage />,
-					},
-					{
-						path: "/blog-grid",
-						element: <BlogGridPage />,
-					},
+					// {
+					// 	path: "/pricing",
+					// 	element: <Pricing />,
+					// },
 					{
 						path: "/service",
 						element: <Service />,
 					},
-					{
-						path: "/single-service",
-						element: <SingleService />,
-					},
-					{
-						path: "/team",
-						element: <Team />,
-					},
-					{
-						path: "/single-team",
-						element: <SingleTeam />,
-					},
-					{
-						path: "/portfolio-one",
-						element: <PortfolioOneColumn />,
-					},
-					{
-						path: "/portfolio-two",
-						element: <PortfolioTwoColumn />,
-					},
-					{
-						path: "/single-portfolio",
-						element: <SinglePortfolio />,
-					},
+					// {
+					// 	path: "/single-service",
+					// 	element: <SingleService />,
+					// },
+					// {
+					// 	path: "/team",
+					// 	element: <Team />,
+					// },
+					// {
+					// 	path: "/single-team",
+					// 	element: <SingleTeam />,
+					// },
+					// {
+					// 	path: "/portfolio-one",
+					// 	element: <PortfolioOneColumn />,
+					// },
+					// {
+					// 	path: "/portfolio-two",
+					// 	element: <PortfolioTwoColumn />,
+					// },
+					// {
+					// 	path: "/single-portfolio",
+					// 	element: <SinglePortfolio />,
+					// },
 					{
 						path: "*",
 						element: <ErrorPage />,

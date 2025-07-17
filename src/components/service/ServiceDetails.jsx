@@ -1,4 +1,4 @@
-import SingleImg from "../../assets/images/service/service-single.png";
+// import SingleImg from "../../assets/images/service/service-single.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 import FadeInUp from "../animation/FadeInUp";
 import WorkingApproach from "./WorkingApproach";
@@ -8,7 +8,7 @@ function ServiceDetails() {
 			<div className="container">
 				<div className="aximo-service-details-wrap">
 					<FadeInUp className="aximo-service-details-thumb">
-						<img src={SingleImg} alt="Single img" />
+						{/* <img src={SingleImg} alt="Single img" /> */}
 					</FadeInUp>
 					<div className="row">
 						<div className="col-lg-8">

@@ -1,5 +1,5 @@
-import Single1Img from "../../../assets/images/portfolio/p_single.png";
-import Single2Img from "../../../assets/images/portfolio/p_single2.png";
+// import Single1Img from "../../../assets/images/portfolio/p_single.png";
+// import Single2Img from "../../../assets/images/portfolio/p_single2.png";
 import Star2Img from "../../../assets/images/v1/star2.png";
 import FadeInRight from "../../animation/FadeInRight";
 import FadeInUp from "../../animation/FadeInUp";
@@ -25,7 +25,7 @@ function PortfolioDetails() {
 		<div className="aximo-project-single-section">
 			<div className="container">
 				<FadeInUp className="aximo-project-single-thumb">
-					<img src={Single1Img} alt="Single" />
+					{/* <img src={Single1Img} alt="Single" /> */}
 				</FadeInUp>
 				<div className="aximo-project-info-wrap">
 					<div className="aximo-project-info">
@@ -49,7 +49,7 @@ function PortfolioDetails() {
 					<div className="row">
 						<div className="col-lg-4 order-lg-2">
 							<FadeInRight className="aximo-project-single-thumb2 ">
-								<img src={Single2Img} alt="Single 2" />
+								{/* <img src={Single2Img} alt="Single 2" /> */}
 							</FadeInRight>
 						</div>
 						<div className="col-lg-8">

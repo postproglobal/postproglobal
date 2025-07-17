@@ -1,4 +1,4 @@
-import Single2Img from "../../assets/images/service/service-single2.png";
+// import Single2Img from "../../assets/images/service/service-single2.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 import FadeInRight from "../animation/FadeInRight";
 
@@ -30,7 +30,7 @@ function WorkingApproach() {
 		<div className="row">
 			<div className="col-lg-5 offset-lg-1 order-lg-1">
 				<FadeInRight className="aximo-service-details-thumb2 ">
-					<img src={Single2Img} alt="service" />
+					{/* <img src={Single2Img} alt="service" /> */}
 				</FadeInRight>
 			</div>
 			<div className="col-lg-6">
