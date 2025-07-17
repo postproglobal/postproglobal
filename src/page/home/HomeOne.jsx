@@ -5,7 +5,7 @@ import Projects from "../../components/home-one/projects";
 import Services from "../../components/home-one/services";
 import Teams from "../../components/home-one/teams";
 import Testimonial from "../../components/home-one/testimonial";
-import BrandLogo from "../../components/home-four/brand-logo";
+import BrandLogo from "../../components/home-one/brand-logo";
 import WhyChooseUs from "../../components/home-one/why-choose-us";
 
 // Teams images
