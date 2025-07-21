@@ -1,7 +1,6 @@
 import Story from "../components/about/story";
 import BreadCrumb from "../components/common/Breadcrumb";
 import About from "../components/home-one/about";
-import AutoSlider from "../components/home-one/auto-slider";
 import Teams from "../components/home-one/teams";
 // Teams images
 import Team1Img from "../assets/images/team/1.jpg";
@@ -70,7 +69,6 @@ function AboutUs() {
 			<BreadCrumb title="About Us" />
 			<About />
 			<Story />
-			{/* <AutoSlider /> */}
 			<Teams teams={teamsData} />
 		</>
 	);

@@ -72,7 +72,6 @@
 import { useState, useEffect } from "react";
 import FadeInRight from "../../animation/FadeInRight.jsx";
 import HeroContent from "./HeroContent.jsx";
-import HeroThumbs from "./HeroThumbs.jsx";
 
 import bannerVideoDesktop from "../../../assets/videos/banners/banner-01.mov";
 import bannerVideoMobile from "../../../assets/videos/banners/banner-02.mov";
