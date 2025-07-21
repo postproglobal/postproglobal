@@ -8,22 +8,22 @@ function StoryPhotos() {
 		<FadeInStaggerTwo className="row">
 			<FadeInStaggerTwoChildren className="col-lg-7">
 				<div className="aximo-story-thumb">
-					<img src={Story2Img} alt="Story1Img" />
+					<img src={Story2Img} alt="Story1Img" loading="lazy" />
 				</div>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren className="col-lg-5">
 				<div className="aximo-story-thumb">
-					<img src={Story3Img} alt="StroryIMg 2" />
+					<img src={Story3Img} alt="StroryIMg 2" loading="lazy" />
 				</div>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren className="col-lg-5">
 				<div className="aximo-story-thumb">
-					<img src={Story4Img} alt="StoryImg 3" />
+					<img src={Story4Img} alt="StoryImg 3" loading="lazy" />
 				</div>
 			</FadeInStaggerTwoChildren>
 			<FadeInStaggerTwoChildren className="col-lg-7">
 				<div className="aximo-story-thumb">
-					<img src={Story1Img} alt="Story4Img" />
+					<img src={Story1Img} alt="Story4Img" loading="lazy" />
 				</div>
 			</FadeInStaggerTwoChildren>
 		</FadeInStaggerTwo>

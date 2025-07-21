@@ -9,7 +9,7 @@ export default function ErrorPage() {
 			<div className="container">
 				<div className="aximo-errors-wrap">
 					<div className="aximo-errors-thumb">
-						<img src={ErrorImg} alt="Error" />
+						<img src={ErrorImg} alt="Error" loading="lazy"/>
 					</div>
 					<div className="aximo-errors-title">
 						<h2>
@@ -17,7 +17,7 @@ export default function ErrorPage() {
 							<span className="aximo-title-animation">
 								you are looking for
 								<span className="aximo-title-icon">
-									<img src={Star2Img} alt="" />
+									<img src={Star2Img} alt="" loading="lazy"/>
 								</span>
 							</span>
 						</h2>
@@ -26,7 +26,7 @@ export default function ErrorPage() {
 						<Link className="aximo-errors-btn" to="/">
 							Return to homepage
 							<span>
-								<img src={ArrowRightImg} alt="arrow" />
+								<img src={ArrowRightImg} alt="arrow" loading="lazy"/>
 							</span>
 						</Link>
 					</FadeInUp>

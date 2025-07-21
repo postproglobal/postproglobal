@@ -11,7 +11,7 @@ function CountDownRenderer({ days, hours, minutes, seconds }) {
 						<span className="aximo-title-animation">
 							coming soon!
 							<span className="aximo-title-icon">
-								<img src={StarImg} alt="star" />
+								<img src={StarImg} alt="star" loading="lazy" />
 							</span>
 						</span>
 					</h2>

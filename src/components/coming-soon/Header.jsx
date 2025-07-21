@@ -7,7 +7,7 @@ function Header() {
 		<div className="aximo-logo-section">
 			<div className="container">
 				<Link to="/">
-					<img src={LogoMain} height={55} alt="Logo" />
+					<img src={LogoMain} height={55} alt="Logo" loading="lazy" />
 				</Link>
 			</div>
 		</div>

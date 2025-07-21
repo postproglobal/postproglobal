@@ -47,7 +47,7 @@ function ContactForm() {
 								<span className="aximo-title-animation">
 									Contact us for a
 									<span className="aximo-title-icon">
-										<img src={Star2Img} alt="Star" />
+										<img src={Star2Img} alt="Star" loading="lazy" />
 									</span>
 								</span>
 								personal experience
@@ -59,7 +59,7 @@ function ContactForm() {
 				<div className="row">
 					<div className="col-lg-5 order-lg-2">
 						<FadeInRight className="aximo-contact-thumb">
-							<img src={ContactThumb} alt="Contact Thumb" />
+							<img src={ContactThumb} alt="Contact Thumb" loading="lazy" />
 						</FadeInRight>
 					</div>
 					<div className="col-lg-7">

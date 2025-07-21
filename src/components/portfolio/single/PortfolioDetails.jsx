@@ -59,7 +59,7 @@ function PortfolioDetails() {
 									<span className="aximo-title-animation">
 										resolve the project
 										<span className="aximo-title-icon">
-											<img src={Star2Img} alt="star" />
+											<img src={Star2Img} alt="star" loading="lazy" />
 										</span>
 									</span>
 								</h2>

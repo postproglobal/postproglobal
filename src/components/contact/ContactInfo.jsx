@@ -12,7 +12,7 @@ function ContactInfo() {
 						<span className="aximo-title-animation">
 							Contact Information
 							<span className="aximo-title-icon">
-								<img src={Star2Img} alt="Star" />
+								<img src={Star2Img} alt="Star" loading="lazy" />
 							</span>
 						</span>
 					</h2>
@@ -21,7 +21,7 @@ function ContactInfo() {
 					<FadeInStaggerTwoChildren className="col-xl-6 col-md-6">
 						<div className="aximo-contact-info-box">
 							<div className="aximo-contact-info-icon">
-								<img src={Call2Img} alt="Call Img" />
+								<img src={Call2Img} alt="Call Img" loading="lazy" />
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Call us</span>
@@ -33,7 +33,7 @@ function ContactInfo() {
 					<FadeInStaggerTwoChildren className="col-xl-6 col-md-6">
 						<div className="aximo-contact-info-box">
 							<div className="aximo-contact-info-icon">
-								<img src={EmailImg} alt="Email" />
+								<img src={EmailImg} alt="Email" loading="lazy" />
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Email us</span>
@@ -44,7 +44,7 @@ function ContactInfo() {
 					<FadeInStaggerTwoChildren className="col-xl-12 col-md-6">
 						<div className="aximo-contact-info-box">
 							<div className="aximo-contact-info-icon">
-								<img src={MapImg} alt="Map" />
+								<img src={MapImg} alt="Map" loading="lazy" />
 							</div>
 							<div className="aximo-contact-info-data">
 								<span>Office address</span>

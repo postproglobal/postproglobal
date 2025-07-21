@@ -67,8 +67,8 @@ function AboutUs() {
 	return (
 		<>
 			<BreadCrumb title="About Us" />
-			<About />
 			<Story />
+			<About />
 			<Teams teams={teamsData} />
 		</>
 	);

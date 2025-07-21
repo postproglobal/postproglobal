@@ -6,7 +6,7 @@ function HeaderLogo() {
 	return (
 		<div className="brand-logo">
 			<Link to="/">
-				<img src={LogoMain} alt="Logo" height={55} className="light-version-logo" />
+				<img src={LogoMain} alt="Logo" height={55} className="light-version-logo" loading="lazy" />
 			</Link>
 		</div>
 	);

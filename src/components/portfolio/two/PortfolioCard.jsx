@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 function PortfolioCard({ portfolio: { title, description, img } }) {
 	return (
 		<div className="aximo-project-thumb">
-			<img src={img} alt={title} />
+			<img src={img} alt={title} loading="lazy" />
 			<div className="aximo-project-wrap">
 				<div className="aximo-project-data">
 					<Link to="/single-portfolio">

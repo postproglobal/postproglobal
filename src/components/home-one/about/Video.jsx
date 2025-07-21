@@ -10,7 +10,7 @@ function Video() {
 
 	return (
 		<FadeInUp className="aximo-video-wrap">
-			<img src={VideoBg} alt="VideoBg" />
+			<img src={VideoBg} alt="VideoBg" loading="lazy" />
 			<ModalVideo
 				channel="youtube"
 				youtube={{ 
@@ -24,7 +24,7 @@ function Video() {
 				onClose={() => setOpen(false)}
 			/>
 			<button className="aximo-video-popup play-btn1 video-init" onClick={() => setOpen(true)}>
-				<img src={PlayBtnImg} alt="PlayBtnImg" />
+				<img src={PlayBtnImg} alt="PlayBtnImg" loading="lazy" />
 			</button>
 		</FadeInUp>
 	);

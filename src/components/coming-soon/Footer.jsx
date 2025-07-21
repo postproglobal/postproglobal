@@ -11,7 +11,7 @@ function Footer() {
 						<div className="col-lg-6">
 							<div className="aximo-footer-logo">
 								<Link to="/">
-									<img src={LogoMain} height={55} alt="logo" />
+									<img src={LogoMain} height={55} alt="logo" loading="lazy" />
 								</Link>
 							</div>
 						</div>

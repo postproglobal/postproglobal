@@ -7,7 +7,7 @@ function FooterContent() {
 				<span className="aximo-title-animation">
 					Lets start a
 					<span className="aximo-title-icon">
-						<img src={Star2Img} alt="Star2Img" />
+						<img src={Star2Img} alt="Star2Img"  loading="lazy"/>
 					</span>
 				</span>
 				<br />
@@ -59,7 +59,7 @@ function FooterContent() {
 				</ul>
 			</div>
 			<div className="aximo-hero-shape aximo-footer-shape">
-				<img src={Shape1Img} alt="Shape1Img" />
+				<img src={Shape1Img} alt="Shape1Img" loading="lazy" />
 			</div>
 		</div>
 	);

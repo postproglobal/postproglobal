@@ -75,7 +75,7 @@ function BrandLogoGrid() {
           <span className="aximo-title-animation">
             {/* creative people */}
             <span className="aximo-title-icon">
-              <img src={Star2Img} alt="Star2Img" />
+              <img src={Star2Img} alt="Star2Img" loading="lazy" />
             </span>
           </span>
         </h2>
@@ -83,7 +83,7 @@ function BrandLogoGrid() {
       <div className="brandlogo-grid">
         {sliderData.map((item) => (
           <div className="brandlogo-item" key={item.id}>
-            <img src={item.img} alt="brand logo" />
+            <img src={item.img} alt="brand logo" loading="lazy" />
           </div>
         ))}
       </div>

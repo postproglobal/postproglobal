@@ -58,8 +58,8 @@ function Testimonial() {
 					What They’re Saying
 						<span className="aximo-title-animation">
 						Real feedback from our happy clients
-							<span className="aximo-title-icon">
-								<img src={Star2Img} alt="Star2Img" />
+							<span className="aximo-title-icon"> 
+								<img src={Star2Img} alt="Star2Img" loading="lazy" />
 							</span>
 						</span>
 					</h2>
